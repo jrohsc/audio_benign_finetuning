@@ -1,4 +1,4 @@
-# Large model directories (contain model weights and audio files) - root level only
+# Large model directories (contain model weights, audio, checkpoints)
 /Kimi-Audio/
 /audio-flamingo/
 /Phi-4/
