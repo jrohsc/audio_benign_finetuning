@@ -1,0 +1,15 @@
+timestamp,model,dataset,threshold,input_file,total_samples,mean_score,std_score,min_score,max_score,median_score
+20260105_213154,audio-flamingo,advbench,0.025,finetuned_af3_thresh_0.025_responses.json,520,-3.3668,16.8344,-22.2500,45.0000,-13.4375
+20260105_213212,audio-flamingo,advbench,0.033,finetuned_af3_thresh_0.033_responses.json,520,-6.6458,15.0083,-19.6250,45.5000,-13.5000
+20260105_213230,audio-flamingo,advbench,0.035,finetuned_af3_thresh_0.035_responses.json,520,-0.6283,18.9276,-21.5000,45.5000,-13.2500
+20260105_213249,audio-flamingo,advbench,0.037,finetuned_af3_thresh_0.037_responses.json,520,-3.9039,17.3722,-19.8750,45.0000,-13.3750
+20260105_213303,audio-flamingo,advbench,0.045,finetuned_af3_thresh_0.045_responses.json,268,-9.1217,14.8702,-20.1250,42.5000,-15.1250
+20260105_213323,audio-flamingo,advbench,0.04,finetuned_af3_thresh_0.04_responses.json,520,-4.0402,17.0560,-19.7500,43.2500,-13.4375
+20260105_213341,audio-flamingo,advbench,pretrained,pretrained_responses.json,520,-8.6849,15.2248,-20.1250,42.5000,-14.9062
+20260105_215552,audio-flamingo,safetybench,0.025,finetuned_af3_finetuned_thresh_0.025_responses.json,939,-4.6947,12.6240,-24.1250,43.7500,-9.6250
+20260105_215615,audio-flamingo,safetybench,0.033,finetuned_af3_finetuned_thresh_0.033_responses.json,939,-5.8545,12.7359,-21.7500,46.5000,-11.8125
+20260105_215637,audio-flamingo,safetybench,0.037,finetuned_af3_finetuned_thresh_0.037_responses.json,939,-5.7286,12.8943,-21.5000,45.7500,-11.4375
+20260105_215703,audio-flamingo,safetybench,0.045,finetuned_af3_finetuned_thresh_0.045_responses.json,939,-7.2805,10.8532,-22.8750,42.5000,-12.1875
+20260105_215724,audio-flamingo,safetybench,0.04,finetuned_af3_finetuned_thresh_0.04_responses.json,939,-4.5329,12.5161,-21.5000,47.2500,-9.1875
+20260105_215744,audio-flamingo,safetybench,0.035,finetuned_af3_thresh_0.035_responses.json,939,-4.4098,12.5720,-20.6250,46.7500,-9.0625
+20260105_215806,audio-flamingo,safetybench,pretrained,pretrained_responses.json,939,-9.0711,10.9549,-21.8750,39.0000,-13.3750

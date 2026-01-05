@@ -1,0 +1,44 @@
+# Large model directories (contain model weights and audio files) - root level only
+/Kimi-Audio/
+/audio-flamingo/
+/Phi-4/
+/QwenAudioSFT/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Large data files
+harmful_data/
+
+# Environment and secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db

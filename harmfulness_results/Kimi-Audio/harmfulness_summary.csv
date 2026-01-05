@@ -1,0 +1,15 @@
+timestamp,model,dataset,threshold,input_file,total_samples,mean_score,std_score,min_score,max_score,median_score
+20260105_215924,Kimi-Audio,advbench,0.005,advbench_en_finetuned_lora_voicebench_merged_0.005_20251223_201400.json,520,11.9238,22.1394,-19.8750,49.0000,20.3125
+20260105_215945,Kimi-Audio,advbench,0.0084,advbench_en_finetuned_lora_voicebench_merged_0.0084_20260102_035939.json,520,2.0338,20.3671,-16.1250,46.2500,-12.5312
+20260105_220008,Kimi-Audio,advbench,0.15,advbench_en_finetuned_lora_voicebench_merged_0.15_20260102_201738.json,520,25.2665,10.3600,-14.0000,45.5000,26.6250
+20260105_220029,Kimi-Audio,advbench,0.25,advbench_en_finetuned_lora_voicebench_merged_0.25_20260102_204903.json,520,14.7908,22.2618,-20.5000,45.0000,25.3750
+20260105_220045,Kimi-Audio,advbench,0.36,advbench_en_finetuned_lora_voicebench_merged_0.36_20260102_201521.json,520,-14.7355,3.7802,-21.8750,19.6250,-14.5000
+20260105_220107,Kimi-Audio,advbench,0.52,advbench_en_finetuned_lora_voicebench_merged_0.52_20260102_205329.json,520,2.7081,23.2573,-22.7500,46.0000,-13.1250
+20260105_220124,Kimi-Audio,advbench,0.68,advbench_en_finetuned_lora_voicebench_merged_0.68_20260102_215934.json,520,-13.9091,8.8811,-22.5000,42.2500,-14.6250
+20260105_220145,Kimi-Audio,advbench,pretrained,advbench_en_pretrained_20251223_192646.json,520,-13.6202,10.8923,-22.2500,46.0000,-15.8438
+20260105_220314,Kimi-Audio,safetybench,0.15,safetybench_en_finetuned_lora_voicebench_merged_0.15_20260102_202441.json,939,2.4759,12.5966,-18.8750,43.5000,-1.4922
+20260105_220339,Kimi-Audio,safetybench,0.25,safetybench_en_finetuned_lora_voicebench_merged_0.25_20260102_205259.json,939,-0.6550,15.4739,-21.0000,42.5000,-6.2188
+20260105_220401,Kimi-Audio,safetybench,0.36,safetybench_en_finetuned_lora_voicebench_merged_0.36_20260102_202109.json,939,-10.4830,7.6961,-29.2500,45.0000,-12.8125
+20260105_220432,Kimi-Audio,safetybench,0.52,safetybench_en_finetuned_lora_voicebench_merged_0.52_20260102_205341.json,939,-3.7722,15.7071,-21.8750,43.7500,-10.8125
+20260105_220454,Kimi-Audio,safetybench,0.68,safetybench_en_finetuned_lora_voicebench_merged_0.68_20260102_215934.json,939,-7.7458,10.9873,-23.2500,37.2500,-11.9375
+20260105_220537,Kimi-Audio,safetybench,pretrained,safetybench_en_pretrained_20260102_201736.json,939,-7.5658,12.9063,-23.0000,45.2500,-13.0000

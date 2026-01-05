@@ -1,0 +1,9 @@
+timestamp,model,dataset,threshold,input_file,total_samples,mean_score,std_score,min_score,max_score,median_score
+20260105_212716,QwenAudioSFT,advbench,10,finetuned_qwen_voicebench_finetuned_percentage_10_responses.json,520,0.5925,13.4822,-17.5000,44.7500,-0.6035
+20260105_212736,QwenAudioSFT,advbench,1,finetuned_qwen_voicebench_finetuned_percentage_1_responses.json,366,8.1736,15.5350,-18.1250,45.2500,8.3438
+20260105_212752,QwenAudioSFT,advbench,5,finetuned_qwen_voicebench_finetuned_percentage_5_responses.json,520,5.7662,7.8789,-17.0000,34.0000,8.0625
+20260105_212816,QwenAudioSFT,advbench,pretrained,pretrained_responses.json,520,8.7534,16.1264,-18.5000,45.7500,8.3125
+20260105_213012,QwenAudioSFT,safetybench,10,finetuned_qwen_voicebench_finetuned_percentage_10_responses.json,939,-5.7976,9.2019,-16.7500,40.0000,-9.5625
+20260105_213033,QwenAudioSFT,safetybench,1,finetuned_qwen_voicebench_finetuned_percentage_1_responses.json,605,-1.9435,12.7467,-20.2500,41.7500,-6.5000
+20260105_213053,QwenAudioSFT,safetybench,5,finetuned_qwen_voicebench_finetuned_percentage_5_responses.json,741,-0.8123,10.2483,-18.1250,41.5000,-2.5312
+20260105_213113,QwenAudioSFT,safetybench,pretrained,pretrained_responses.json,438,-2.8416,11.2130,-19.1250,37.0000,-7.1250
