@@ -308,12 +308,13 @@ Shows the change in ASR compared to pretrained models. Positive values indicate 
 
 | Model | Threshold | Mean Score | Interpretation |
 |-------|-----------|------------|----------------|
-| QwenAudioSFT | 10% | 0.59 | Safest |
-| QwenAudioSFT | 5% | 5.77 | Moderate |
-| QwenAudioSFT | 1% | 8.17 | Less safe |
-| QwenAudioSFT | pretrained | 8.75 | Baseline |
+| Kimi-Audio | pretrained | -13.62 | Baseline (safe) |
+| Kimi-Audio | 0.68 | -13.91 | Similar to baseline |
+| Kimi-Audio | 0.36 | -14.74 | Similar to baseline |
+| Kimi-Audio | 0.25 | 14.79 | Less safe |
+| Kimi-Audio | 0.15 | 25.27 | Most harmful |
 
-**Finding:** More benign data (higher percentage) = Lower harmfulness scores
+**Finding:** Lower distance threshold (data closer to harmful) = Higher harmfulness scores. Finetuning on the closest 15% of benign data increased harmfulness by ~39 points compared to pretrained.
 
 ---
 
