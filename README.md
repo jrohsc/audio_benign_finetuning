@@ -1,5 +1,9 @@
 # Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs
 
+## 📄 Paper
+
+**Coming soon** — preprint will be available shortly.
+
 ## Abstract
 
 Fine-tuning aligned text LLMs on benign data can degrade their safety, but whether this vulnerability extends to Audio LLMs and how it interacts with audio-specific structure remains unknown. We present the first systematic study of this problem, evaluating three state-of-the-art Audio LLMs. Using a proximity-based filtering framework that selects benign audio samples by embedding-space distance to harmful content along semantic and acoustic axes, we show that benign fine-tuning elevates Jailbreak Success Rate (JSR) from single digits to as high as **71.15%**. The dominant vulnerability axis is architecture-conditioned: semantic proximity drives degradation in dual-encoder models while acoustic proximity dominates in unified-encoder models. A text fine-tuning reveals a cross-modal asymmetry -- the same data *decreases* JSR when presented as text but *increases* it as audio -- establishing that this vulnerability is specific to the audio modality. We propose two defenses: **distant filtering** at training time and a **textual system prompt** at inference time, both reducing JSR to near-zero without architectural modification. Our findings demonstrate that benign fine-tuning safety in Audio LLMs is a qualitatively distinct problem from its text counterpart, requiring modality-specific analysis and mitigation.
