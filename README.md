@@ -2,9 +2,7 @@
 
 > 📄 **Paper coming soon!** Preprint will be available shortly.
 > 
-> ⚠️ **Note:** This repository accompanies a paper currently under preparation.
-> 
-> Please cite this work appropriately if you build upon it.
+> ⚠️ **Note:** This repository accompanies a paper currently under preparation. Please cite this work appropriately if you build upon it.
 
 ## Abstract
 
