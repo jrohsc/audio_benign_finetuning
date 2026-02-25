@@ -1,6 +1,10 @@
 # Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs
 
 > 📄 **Paper coming soon!** Preprint will be available shortly.
+> 
+> ⚠️ **Note:** This repository accompanies a paper currently under preparation.
+> 
+> Please cite this work appropriately if you build upon it.
 
 ## Abstract
 
