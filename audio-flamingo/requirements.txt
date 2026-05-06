@@ -1,0 +1,30 @@
+# Core
+numpy
+tqdm
+
+# Audio IO / preprocessing
+librosa
+soundfile
+
+# Distance (only needed if you use --metric euclidean)
+scipy
+
+# AF3 / HF loading
+torch
+transformers
+safetensors
+
+# AF3 repo import chain (llava/mm_utils pulls these)
+pillow
+opencv-python-headless
+
+# Hydra (you previously hit this)
+hydra-core
+omegaconf
+
+# Common AF3/LLaVA deps (often required once you import llava.*)
+einops
+packaging
+sentencepiece
+protobuf
+accelerate

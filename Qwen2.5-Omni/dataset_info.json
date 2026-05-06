@@ -1,0 +1,15 @@
+{
+  "benign_audio_dataset": {
+    "file_name": "finetune_codes/data_sbert_audio_semantic/filtered_voicebench/voicebench_filtered_closest_percentage_50_text_only_llamafactory.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }
+}

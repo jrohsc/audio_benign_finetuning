@@ -1,0 +1,69 @@
+# Model weights & checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+checkpoints/
+checkpoint-*/
+
+# Audio data
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Numpy / dataset dumps
+*.npy
+*.npz
+*.parquet
+*.arrow
+
+# Generated results / logs / caches
+asr_results/
+asr_results_*/
+harmfulness_results/
+defense_results/
+logs/
+*.log
+embedding_cache*/
+*_embeddings/
+response/
+response_log/
+responses/
+results/
+results_*/
+data/
+data_*/
+output/
+outputs/
+wandb/
+runs/
+
+# Environment / secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+*.so
+*.o
+*.a
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
