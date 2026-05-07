@@ -1,6 +1,0 @@
-# Python must be 3.12 or above
-uv pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu126
-uv pip install numpy # must install this again
-module load cuda/12.6
-nvcc --version # for checking
-uv pip install git+https://github.com/MoonshotAI/Kimi-Audio.git --no-build-isolation
