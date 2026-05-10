@@ -81,16 +81,6 @@ bash run_defense_eval.sh
 cd utility_evaluation && bash run_utility_eval.sh
 ```
 
-## Citation
-
-```bibtex
-@article{anonymous2026benign,
-  title={Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs},
-  author={Anonymous},
-  year={2026}
-}
-```
-
 ## License
 
 For research purposes only. Comply with each underlying model's license:
